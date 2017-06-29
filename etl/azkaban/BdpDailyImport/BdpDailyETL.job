@@ -1,0 +1,3 @@
+# BdpDailyETL.job
+type=noop
+dependencies=hive_complete, mysql_complete

@@ -1,0 +1,44 @@
+{
+    "city": "bj",
+    "code": "normal",
+    "createTime": 1479365065,
+    "decisionParams": {
+        "cONTRIBUTION": 70,     # 贡献权重（0-100）
+        "dESTWISH": 0,          # 目的地意愿，现在不使用
+        "dISTANCE": 10,         # 距离权重（0-100）
+        "eVALUATION": 20,       # 评价权重（0-100）
+        "mONTHBASE": 0,         # 月度分
+        "sECOND_SORT_BY": "CONTRIBUTION",   # 第二排序字段
+        "uSER_DEADLINE": 100    # 用户决策限制时间
+    },
+    "dispatchDynamicOutlandId": 0,
+    "dispatchParams": {
+        "aSSIGN_MAX_RANGE": 0,      # 指标最大半径（米）
+        "bATCH_DRIVER_COUNT": 40,   # 每一批司机数量
+        "bATCH_INTERVAL": 20,       # 每一批派发间隔
+        "cONTRIBUTION": 70,         # 贡献权重（0-100）
+        "dESTWISH": 0,              # 距离权重（0-100）
+        "dISTANCE": 10,             # 距离权重（0-100）
+        "dRIVER_DEADLINE": 20,      # 司机决策限制时长
+        "eVALUATION": 20,           # 评价权重（0-100）
+        "mAX_ACCEPT_COUNT": 2,      # 最大接单上限数量
+        "mAX_DRIVER_COUNT": 120,    # 最大选择司机上限数量
+        "mAX_RANGE": 50000,         # 派单半径（米）
+        "mONTHBASE": 0,             # 月度分
+        "sECOND_SORT_BY": "EVALUATION"  # 第二排序字段
+    },
+    "dispatchPercent": 70,
+    "dispatchRegistrationPlate": "[{\"京\":[\"\"]}]",
+    "dispatchTemplateId": 4003,
+    "isRushHour": 0,    # 是否忙时
+    "licenseFlag": true,
+    "limitEndHour": 0,
+    "limitEndMinute": 0,
+    "limitStartHour": 0,
+    "limitStartMinute": 0,
+    "name": "普通",
+    "operator": "zhangkai",
+    "remark": "仅限距服务开始120分钟以上，默认时段的规则",
+    "status": 0,
+    "updateTime": 1479365065
+}

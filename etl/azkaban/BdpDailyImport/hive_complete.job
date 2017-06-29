@@ -1,0 +1,3 @@
+# hive_complete.job
+type=noop
+dependencies=load_order, load_order_charge, load_fo_order, load_fo_order_ext

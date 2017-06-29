@@ -1,0 +1,3 @@
+# convert_dispatch_ok.job
+type=noop
+dependencies=convert_dispatch_info,convert_dispatch_detail,convert_pre_dispatch

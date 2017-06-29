@@ -1,0 +1,5 @@
+# convert_driver_api_gray.job
+type=command
+command = echo "convert driver_api_gray"
+command.1 = python ./script/hiveText2Parquet.py ${execute_date} driver_api_access_gray
+working.dir = /home/y/crontab/DispatchETL/azkaban/KafkaDailyParse

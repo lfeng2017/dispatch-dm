@@ -1,0 +1,3 @@
+# convert_dicision_ok.job
+type=noop
+dependencies=convert_system_dispatch,convert_personal_dispatch

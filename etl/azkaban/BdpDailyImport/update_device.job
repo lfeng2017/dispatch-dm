@@ -1,0 +1,5 @@
+# update_device.job
+type=command
+command = echo "update fdcs_device"
+command.1 = python ./script/loadTsv2Mysql.py ${execute_date} fdcs_device updateDeviceInfo
+working.dir = /home/y/crontab/DispatchETL/azkaban/BdpDailyImport

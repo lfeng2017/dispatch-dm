@@ -1,0 +1,5 @@
+# load_fo_order_ext.job
+type=command
+command = echo "load fo_service_order_ext"
+command.1 = python ./script/loadTsv2Hive.py ${execute_date} fo_service_order_ext
+working.dir = /home/y/crontab/DispatchETL/azkaban/BdpDailyImport

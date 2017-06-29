@@ -1,0 +1,5 @@
+# convert_system_dispatch.job
+type=command
+command = echo "convert system_dispatch"
+command.1 = python ./script/hiveText2Parquet.py ${execute_date} system_dispatch
+working.dir = /home/y/crontab/DispatchETL/azkaban/KafkaDailyParse

@@ -1,0 +1,3 @@
+# KafkaDailyETL.job
+type=noop
+dependencies=convert_dispatch_ok,convert_decision_ok,convert_order_ok,convert_bidding_access,convert_driver_api_gray

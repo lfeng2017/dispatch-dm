@@ -1,0 +1,94 @@
+2017-04-09_23:59:57
+6407032550097535536 # 订单id
+6407032547758247970 # 加价id
+5   round
+{
+    "M": 0.16,  # 业务倍率，由M1 M2 M3构成
+    "O": 0.5,   # 人工调控倍率
+    "commission_rate": 0.1, # 抽成倍率，最终展现给司机的价格是 basePrice * (1 + (1 - commission_rate))
+    "estimateDist": "7",    # 公里
+    "D": "0.2", # 加价上涨步长
+    "driverData": {
+        "856865": {
+            "L": 0, # 批次倍率
+            "N": 0, # 空驶距离
+            "totalMagnification": 0.1,  # 公式总和的加价倍率
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 1200，空驶距离，米
+        },
+        "974788": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 2137
+        },
+        "20574": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 2237
+        },
+        "4021256": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 1528
+        },
+        "282774": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 2825
+        },
+        "3842673": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 3476
+        },
+        "1157588": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 3039
+        },
+        "480329": {
+            "L": 0,
+            "N": 0,
+            "totalMagnification": 0.1,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 3715
+        },
+        "469962": {
+            "L": 0,
+            "N": "0.3",
+            "totalMagnification": 0.2,
+            "groupSequence": 2,
+            "curRound": 3,
+            "startRound": "3",
+            "emptyDist": 4207
+        }
+    }
+}

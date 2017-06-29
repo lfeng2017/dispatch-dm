@@ -1,0 +1,17 @@
+{
+    "add_price_redispatch": 0,              # 改派加价
+    "add_price_rate": 0,                    # 补贴倍率？
+    "add_price_max_amount": 10000000,
+    "add_price_type": 0,                    # 补贴类型（无用？）
+    "add_price_vip": 0,                     #
+    "strategy_id": 0,
+    "add_total_amount": 0,
+    "total_add_price_rate": 0,              # 总加价率 = 补贴率 + 加价率
+    "bidding_id": "6406829288431016119",    # 加价id
+    "total_magnification": 0,               # 总倍率
+    "bidding_price": 0,                     # 加价金额
+    "driver_system_bidding": 0,             # 司机端加价倍率
+    "system_bidding": 0,                    # 乘客端加价倍率
+    "add_amount_str": "",                   
+    "add_amount_str_full": ""
+}

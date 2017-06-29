@@ -1,0 +1,5 @@
+# convert_order_ext.job
+type=command
+command = echo "convert service_order_ext"
+command.1 = python ./script/hiveText2Parquet.py ${execute_date} service_order_ext
+working.dir = /home/y/crontab/DispatchETL/azkaban/KafkaDailyParse

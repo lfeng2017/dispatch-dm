@@ -1,0 +1,5 @@
+# convert_bidding_access.job
+type=command
+command = echo "convert bidding_access"
+command.1 = python ./script/hiveText2Parquet.py ${execute_date} bidding_access
+working.dir = /home/y/crontab/DispatchETL/azkaban/KafkaDailyParse

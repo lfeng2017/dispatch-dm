@@ -1,0 +1,5 @@
+# load_order.job
+type=command
+command = echo "load ods_service_order"
+command.1 = python ./script/loadTsv2Hive.py ${execute_date} ods_service_order
+working.dir = /home/y/crontab/DispatchETL/azkaban/BdpDailyImport

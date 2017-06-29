@@ -1,0 +1,5 @@
+# update_rc_order.job
+type=command
+command = echo "load zero_order"
+command.1 = python ./script/loadTsv2Mysql.py ${execute_date} zero_order updateRcOrder
+working.dir = /home/y/crontab/DispatchETL/azkaban/BdpDailyImport

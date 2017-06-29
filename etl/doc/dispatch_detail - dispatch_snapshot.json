@@ -1,0 +1,16 @@
+{
+    "car_type_id": 37,                  # 车型
+    "name": "\u4f4d\u5174\u632f",       # 司机名称
+    "brand": "\u9a6c\u81ea\u8fbe3",     # 车辆品牌
+    "distance_rate": 93,                # 距离权重（0-100）
+    "contribution": 40000,              # 贡献分
+    "contribution_rate": 52,            # 贡献分权重（0-100）
+    "evaluation": 1000,                 # 评价分
+    "evaluation_rate": 100,             # 评价分权重（0-100）
+    "driver_level": 1,                  # 司机等级
+    "base_score": 20,                   # 基础分
+    "car_id": 1382775,                  # 车辆id
+    "is_arrange": 0,                    # 是否指派
+    "vehicle_number": "\u4eacP7D180",   # 车牌号
+    "city": "bj"                        # 城市
+}
